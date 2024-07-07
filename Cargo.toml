@@ -1,0 +1,10 @@
+[package]
+name = "enigma"
+version = "0.1.0"
+edition = "2018" # Adjusted from "2021" to "2018" since "2021" might refer to the edition, not the year
+
+[dependencies]
+druid = "0.7" # Note: This dependency is not used in the provided code. If it's not needed, consider removing it.
+eframe = "0.16"
+egui = "0.17"
+quick-xml = "0.29.0" # Corrected version based on your comment. Ensure this matches the actual version you intend to use.
